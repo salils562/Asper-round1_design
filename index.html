@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asper-Round-1_task</title>
+    <style>
+        body::before{
+            content: "";
+            position: absolute;
+            background-color: black;
+            width: 100%;
+            height: 220%;
+            z-index: -10;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        #my-header{
+            display: flex;
+        }
+        #head-elements{
+            display: flex;
+            list-style-type: none;
+            text-decoration: none;
+            font-size: 1.4rem;
+     }
+     #head-line1{
+         margin:22px 13px 13px 459px;
+        }
+        .ache{
+            padding:2px 12px 2px 17px;
+            margin:3px 21px 5px 7px;
+     }
+     #logo{
+         height:86px;
+         width: 184px;
+         margin:16px -85px 2px 104px;
+        }
+        #my-header::before{
+            content: " ";
+            background-color: black;
+            position: absolute;
+            height: 123px;
+            width: 100%;
+            z-index: -1;
+        }   
+        a{
+            text-decoration: none;
+            color:aliceblue;
+        } 
+        .bodi{
+            color:aliceblue
+        }
+        #medium{
+            background-color: rgb(39, 35, 35);
+            padding: 60px 0px 0px 0px;
+            height: 310px;
+            text-align: center;
+            color: aliceblue;
+            font-size: 1.4rem;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        .bodi{
+            margin:0px 0px 0px 0px;
+        }
+        #design{
+            border:none;
+            width: 255px;
+            height: 6px;
+            background-color: rgba(255, 0, 0, 0.911);
+        }
+        .ache:hover{
+            color: white;
+            background-color: red;
+            border-radius: 15px;
+
+        }
+        #asper-box{
+            color:aliceblue;
+            display: flex;
+            justify-content:space-evenly;
+            font-family: 'Baloo Bhai 2', cursive;
+            margin:55px 0px 0px 0px;
+            font-size: 1.2rem;
+        }
+        .Head-asper{
+            border: solid red;
+            border-right: none;
+            border-top: none;
+            border-bottom: none;
+            display:inline-block;
+            border-width: 6px;
+            padding:0px 0px 0px 26px;
+        }
+        #asper-b1{
+            margin:0px 0px 0px 10px;
+        }
+        #asper-b2{
+            margin:0px 0px 0px 0px;
+
+        }
+        #asper-box2{
+            margin:40px 0px 0px 0px;
+            padding:0px 0px 0px 83px;
+            display: flex;
+            justify-content: space-between;
+            color:aliceblue;
+            font-size: 1.4rem;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+        #asper-bo2{
+            margin:24px 129px 0px 0px;
+        }
+        .asip{
+            border: solid red;
+            border-right: none;
+            border-top: none;
+            border-bottom: none;
+            display:inline-block;
+            border-width: 6px;
+            padding:0px 0px 0px 26px;
+        }
+        .profile{
+            height:50px;
+            width:125%;
+            border-radius: 10px;
+            margin:2px 8px 4px 1px;
+        }
+        .profEle{
+            margin: 3px 32px 4px -9px;
+        }
+        #git{
+            width: 110%;
+        }
+        #ac{
+            list-style: none;
+            display: flex;
+        }
+        #foot{
+            background-color: rgba(29, 25, 25, 0.877);
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            height: 70px;
+        }
+        </style>
+        <link rel="stylesheet" media="screen and (max-width:1097px)" href="responsiveSetting.css">
+        <link rel="stylesheet" media="screen and (max-width:640px)" href="MotoPhone.css">
+</head>
+<body>
+    <header id="my-header"> 
+        <div class="nav">
+        <img src="images\Screenshot (74).png" alt="asper-logo" id="logo">
+        </div>
+        <div id="head-line1" class="nav">
+            <ul id="head-elements">
+                <li class="my-navigation"><a href="#my-header" class="ache">Home</a></li>
+                <li class="my-navigation"><a href="#asper-box" class="ache">About</a></li>
+                <li class="my-navigation"><a href="#" class="ache">Departments</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="medium">
+        <h1 id="heading" class="bodi">Salil sharma</h1>
+        <h2 id="sub-head" class="bodi">IT | 2nd Year</h2>
+        <hr id="design">
+        <p>Hello There! I am Salil Sharma, currently pursuing my B.Tech from<br>UIT-RGPV in
+        Information technology. I am so much exited to join Asper<br> and gain team-work experience.</p>
+    </div>
+    <section id="asper-box">
+        <div id="asper-b1">
+            <h1 class="Head-asper">About Asper</h1>
+            <p>Asper is a great community of our college. It helps to grow, learn and gain some<br>
+            industry experience in technical and non-technical fields. Also joining asper will<br>
+        be a great opportunity for me to achive some industry level knowledge and accelerate<br> my skills.
+    One can earn certificates which helps to grow productivity of resume.<br>Also it helps in interviews
+for showing the projects we made in team.</p>
+        </div>
+        <div id="asper-b2">
+         <h1 class="Head-asper">Skills</h1>
+         <ul id="skil">
+             <li>Web-development</li>
+             <li>C programming</li>
+             <li>C++ programming</li>
+             <li>python and its libraries</li>
+         </ul>
+        </div>
+    </section>
+    <section id="asper-box2">
+        <div>
+        <h1 id="asper-bo1" class="asip">Why Asper</h1>
+        <p>Joining asper would be the great opportunity for me to learn,<br>
+        grow and explore and give the best of me,Also above all...<br>Great learning
+    experience and hands on latest technologies.<br>Great colleagues and peers are
+very helpful. And it will help<br>me to overcome real-world challenge and learn some new<br> techniques
+for my working field.</p>
+        </div>
+        <div>
+            <h1 id="asper-bo2" class="asip">Social Media</h1>
+            <ul id="ac">
+                <li class="profEle"><a href="https://www.instagram.com/_sa.lil_/" target="_blank"><img src="images\insta.png" class="profile"></a></li>
+                <li class="profEle"><a href="http://linkedin.com/in/salil-sharma-327153205" target="_blank"><img src="images\linkedin.png" class="profile"></a></li>
+                <li class="profEle"><a href="https://github.com/salils562" target="_blank"><img src="images\github3.jpg" class="profile" id="git"></a></li>
+            </ul>
+        </div>
+    </section>
+    <footer id="foot">
+        <h2>copyright@Asper | 2021</h2>
+    </footer>
+</body>
+</html>

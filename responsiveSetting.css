@@ -1,0 +1,71 @@
+body::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 250%;
+    z-index: -10;
+}
+/* setting up the Navingation-Section  */
+#my-header::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    z-index: -1;
+}
+#my-header{
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+}
+#my-header ul li a{
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+}
+.nav{
+    margin: 20px;
+}
+#head-line1{
+    margin-left: 15px;
+}
+#logo{
+    margin: -7px 11px -65px 22px;
+    display:inline-block;
+    align-content: center;
+    overflow: hidden;
+}
+#head-elements{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* body */
+#asper-box{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+}
+#skil{
+    list-style: none;
+}
+#medium{
+    height: 300px;
+    font-size: 1rem;
+}
+#asper-box2{
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+/* #design{
+    display: none;
+} */
+#ac{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
