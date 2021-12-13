@@ -69,3 +69,7 @@ body::before{
     display: flex;
     flex-wrap: wrap;
 }
+.profile{
+    width:85%;
+    height:30px;
+}
