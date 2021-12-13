@@ -6,7 +6,3 @@ body::before{
     height: 330%;
     z-index: -10;
 }
-.profile{
-    width:89%;
-    height:20px;
-}
